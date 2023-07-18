@@ -1,0 +1,27 @@
+.container {
+    /* background-color: aqua ; */
+    margin: 5%;
+
+}
+
+h2 {
+    /* font-size: clamp(4vw, 6.5vw, 10vw); */
+    font-size: 30px;
+    margin-bottom: 3%;
+}
+
+p {
+    /* font-size: clamp(3vw, 4.3vw, 7vw); */
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 5vw;
+    }
+
+    p {
+        font-size: 3.5vw;
+    }
+}
