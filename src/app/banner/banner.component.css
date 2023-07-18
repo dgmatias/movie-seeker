@@ -1,0 +1,57 @@
+.container {
+    height: 85vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card-container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    width: 100%;
+    font-size: 30px;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+button {
+    background-color: transparent;
+    border-radius: 30px;
+    border: 1px solid white;
+    width: 70%;
+    height: 5.5vh;
+}
+
+button a {
+    padding: 3%;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 5vw;
+    }
+
+    h1 {
+        font-size: 9vw;
+    }
+
+    button a {
+        font-size: 4vw;
+    }
+
+
+}
