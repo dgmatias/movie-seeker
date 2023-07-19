@@ -17,9 +17,28 @@ h4 {
     display: flex;
     flex-wrap: wrap;
     /* flex-direction: column; */
+    width: 100%;
 }
 
 img {
     height: 200px;
     width: 150px;
+}
+
+a {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 550px) {
+    h3 {
+        font-size: 5vw;
+    }
+
+    h4 {
+        font-size: 3.5vw;
+    }
+    
+    .card-container {
+        flex-direction: column;
+    }
 }
