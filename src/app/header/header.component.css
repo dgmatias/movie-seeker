@@ -27,7 +27,7 @@
 
 .item-container {
     /* background-color: aqua; */
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     font-size: 25px;
