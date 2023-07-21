@@ -1,36 +1,26 @@
-.categories-container {
-    padding: 5%;
+.card-container {
+    /* background-color: aqua; */
+    line-height: 50px;
+    /* border: 1px solid white; */
+}
+
+.card-container div {
+    text-align: center;
 }
 
 h4 {
-    font-size: 20px;
-    line-height: 50px;
+    font-size: 25px;
 }
 
-.card-container {
-    gap: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    /* flex-direction: column; */
-    width: 100%;
-}
-
-img {
-    height: 200px;
+.card-container img {
     width: 150px;
+    height: 200px;
 }
 
-a {
-    cursor: pointer;
-}
-
-@media screen and (max-width: 550px) {
-
-    h4 {
-        font-size: 3.5vw;
-    }
-    
-    .card-container {
-        flex-direction: column;
-    }
+.card-container button {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 0.5rem;
 }

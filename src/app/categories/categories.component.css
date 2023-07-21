@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: aqua; */
+    min-height: 79vh;
+}
+
+h3 {
+    /* position: absolute; */
+    /* text-align: center; */
+    font-size: 30px;
+    /* background-color: aqua; */
+    /* text-align: center; */
+}
+
+
+.category-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2%;
+    gap: 30px;
+}
