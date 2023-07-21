@@ -1,0 +1,23 @@
+h3 {
+    font-size: 30px;
+    margin-left: 5%;
+    margin-top: 5%;
+
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+    gap: 30px;
+    /* background-color: red; */
+}
+.card img {
+    width: 150px;
+    height: 200px;
+}
+
+h4 {
+    font-size: 25px;
+    text-align: center;
+}

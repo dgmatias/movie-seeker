@@ -7,6 +7,8 @@ import { AboutComponent } from './about/about.component';
 import { BannerComponent } from './banner/banner.component';
 import { CategoriesComponent } from './categories/categories.component';
 import { CategoryComponent } from './category/category.component';
+import { MoviesComponent } from './movies/movies.component';
+import { MovieComponent } from './movie/movie.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +18,8 @@ import { CategoryComponent } from './category/category.component';
     BannerComponent,
     CategoriesComponent,
     CategoryComponent,
+    MoviesComponent,
+    MovieComponent,
   ],
   imports: [
     BrowserModule,
