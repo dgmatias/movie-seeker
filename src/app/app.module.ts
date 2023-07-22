@@ -9,6 +9,8 @@ import { CategoriesComponent } from './categories/categories.component';
 import { CategoryComponent } from './categories/category/category.component';
 import { MoviesComponent } from './movies/movies.component';
 import { MovieComponent } from './movies/movie/movie.component';
+import { RouterModule } from '@angular/router';
+import { ROUTES } from './app.routing.module';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,7 @@ import { MovieComponent } from './movies/movie/movie.component';
   ],
   imports: [
     BrowserModule,
+    RouterModule.forRoot(ROUTES),
   ],
   providers: [],
   bootstrap: [AppComponent]
