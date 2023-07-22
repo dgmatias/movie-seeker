@@ -6,9 +6,9 @@ import { HeaderComponent } from './header/header.component';
 import { AboutComponent } from './about/about.component';
 import { BannerComponent } from './banner/banner.component';
 import { CategoriesComponent } from './categories/categories.component';
-import { CategoryComponent } from './category/category.component';
+import { CategoryComponent } from './categories/category/category.component';
 import { MoviesComponent } from './movies/movies.component';
-import { MovieComponent } from './movie/movie.component';
+import { MovieComponent } from './movies/movie/movie.component';
 
 @NgModule({
   declarations: [
