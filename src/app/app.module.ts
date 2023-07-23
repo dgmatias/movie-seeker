@@ -1,23 +1,25 @@
+
+
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { AboutComponent } from './about/about.component';
 import { BannerComponent } from './banner/banner.component';
 import { CategoriesComponent } from './categories/categories.component';
 import { CategoryComponent } from './categories/category/category.component';
-import { MoviesComponent } from './movies/movies.component';
+import { AboutComponent } from './about/about.component';
 import { MovieComponent } from './movies/movie/movie.component';
-import { RouterModule } from '@angular/router';
-import { ROUTES } from './app.routing.module';
+import { MoviesComponent } from './movies/movies.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    AboutComponent,
     BannerComponent,
+    AboutComponent,
     CategoriesComponent,
     CategoryComponent,
     MoviesComponent,
@@ -25,7 +27,7 @@ import { ROUTES } from './app.routing.module';
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(ROUTES),
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
