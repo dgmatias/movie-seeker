@@ -1,0 +1,18 @@
+.card img {
+    width: 150px;
+    height: 200px;
+}
+
+h4 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.card {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.card:hover {
+    opacity: 1.1;
+}
