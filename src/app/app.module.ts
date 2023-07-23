@@ -10,10 +10,9 @@ import { BannerComponent } from './banner/banner.component';
 import { CategoriesComponent } from './categories/categories.component';
 import { CategoryComponent } from './categories/category/category.component';
 import { AboutComponent } from './about/about.component';
-import { MoviesComponent } from './movies/movies.component';
-import { MovieComponent } from './movies/movie/movie.component';
-import { TestesComponent } from './testes/testes.component';
-import { TesteComponent } from './testes/teste/teste.component';
+import { FilmesComponent } from './filmes/filmes.component';
+import { FilmeComponent } from './filmes/filme/filme.component';
+
 
 @NgModule({
   declarations: [
@@ -23,10 +22,8 @@ import { TesteComponent } from './testes/teste/teste.component';
     AboutComponent,
     CategoriesComponent,
     CategoryComponent,
-    MoviesComponent,
-    MovieComponent,
-    TestesComponent,
-    TesteComponent,
+    FilmesComponent,
+    FilmeComponent,
   ],
   imports: [
     BrowserModule,
