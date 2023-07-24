@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class CategoriesComponent {
 
+  categories = [
+    {nome: "ação", img: "assets/img/john-wick.jpg"},
+    {nome: "comédia", img: "assets/img/billi-pig.jpg"},
+    {nome: "terror", img: "assets/img/maligno.jpg"},
+
+  ]
+
 }
