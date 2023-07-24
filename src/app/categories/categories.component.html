@@ -2,10 +2,12 @@
 
     <div> <h3> Categorias</h3> </div>
 
-    <div class="category-container">        
-        <mov-category [nome]="categories[0].nome" [img]="categories[0].img"></mov-category>
+    <div class="category-container">
+        
+        <mov-category *ngFor="let c of categories" [category]="c"></mov-category>
+        <!-- <mov-category [nome]="categories[0].nome" [img]="categories[0].img"></mov-category>
         <mov-category [nome]="categories[1].nome" [img]="categories[1].img"></mov-category>
-        <mov-category [nome]="categories[2].nome" [img]="categories[2].img"></mov-category>
+        <mov-category [nome]="categories[2].nome" [img]="categories[2].img"></mov-category> -->
 
         <!-- <mov-category></mov-category>
         <mov-category></mov-category> -->

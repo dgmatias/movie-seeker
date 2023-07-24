@@ -8,7 +8,6 @@ import { Category } from 'src/app/models/category-model';
 })
 export class CategoryComponent {
 
-  @Input() nome!: string;
-  @Input() img!: string;
+  @Input() category!: Category;
 
 }
