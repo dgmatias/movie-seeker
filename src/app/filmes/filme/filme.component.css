@@ -1,16 +1,17 @@
+.card {
+    opacity: 0.9;
+    cursor: pointer;
+    /* background-color: aqua; */
+}
 .card img {
     width: 150px;
     height: 200px;
 }
 
 h4 {
+    max-width: 150px;
     font-size: 25px;
     text-align: center;
-}
-
-.card {
-    opacity: 0.9;
-    cursor: pointer;
 }
 
 .card:hover {

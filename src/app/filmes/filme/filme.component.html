@@ -1,6 +1,7 @@
-<div class="card">
+<div *ngIf="idUrl === filme.id" class="card">
                 
     <div> <img [src]="filme.img" alt=""> </div>
+    <!-- <div>{{getId()}}</div> -->
+    <!-- <div>{{idUrl}}</div> -->
     <div> <h4>{{filme.nome}} </h4> </div>
-
 </div>
