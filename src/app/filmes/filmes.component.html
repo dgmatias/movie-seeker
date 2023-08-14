@@ -6,15 +6,7 @@
 
     <div class="card-container">
 
-        <mov-filme></mov-filme>
-        <mov-filme></mov-filme>
-        <mov-filme></mov-filme>
-        <mov-filme></mov-filme>
-        <mov-filme></mov-filme>
-        <mov-filme></mov-filme>
-        <mov-filme></mov-filme>
-        <mov-filme></mov-filme>
-        <mov-filme></mov-filme>
+        <mov-filme *ngFor="let f of filmes" [filme]="f"></mov-filme>
 
     </div>
 

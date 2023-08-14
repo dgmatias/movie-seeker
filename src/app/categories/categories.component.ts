@@ -10,10 +10,10 @@ export class CategoriesComponent {
 
   categories: Category[] = [
 
-    {nome: "ação", img: "assets/img/john-wick.jpg"},
-    {nome: "comédia", img: "assets/img/billi-pig.jpg"},
-    {nome: "terror", img: "assets/img/maligno.jpg"},
-    {nome: "infantil", img: "assets/img/era-do-gelo-4.jpg" }
+    {id: 1, nome: "ação", img: "assets/img/john-wick.jpg"},
+    {id: 2, nome: "comédia", img: "assets/img/billi-pig.jpg"},
+    {id: 3, nome: "terror", img: "assets/img/maligno.jpg"},
+    {id: 4, nome: "infantil", img: "assets/img/era-do-gelo-4.jpg" },
 
   ]
 

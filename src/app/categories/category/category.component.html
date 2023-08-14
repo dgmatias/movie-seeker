@@ -1,7 +1,8 @@
 <div class="card-container"> 
                     
     <div> <h4> {{category.nome}} </h4> </div> 
-    <div> <img src="{{category.img}}" alt=""> </div>
-    <div> <button> <a routerLink="/filmes"> Clique aqui</a> </button> </div>
+    <div> <img [src]="category.img" alt=""> </div>
+    <div> <p> {{category.id}}</p></div>
+    <div> <button> <a [routerLink]="['/filmes', category.id]"> Clique aqui</a> </button> </div>
 
 </div>
