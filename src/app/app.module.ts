@@ -14,6 +14,7 @@ import { FilmesComponent } from './filmes/filmes.component';
 import { FilmeComponent } from './filmes/filme/filme.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CategoriesServices } from './categories/categories.service';
+import { FilmesService } from './filmes/filmes-service';
 
 
 @NgModule({
@@ -32,7 +33,7 @@ import { CategoriesServices } from './categories/categories.service';
     AppRoutingModule,
     HttpClientModule,
   ],
-  providers: [CategoriesServices],
+  providers: [CategoriesServices, FilmesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
