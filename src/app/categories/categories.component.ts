@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Category } from '../models/category-model';
+import { CategoriesServices } from './categories.service';
 
 @Component({
   selector: 'mov-categories',
@@ -8,13 +9,11 @@ import { Category } from '../models/category-model';
 })
 export class CategoriesComponent {
 
-  categories: Category[] = [
+  categories: Category[] = []
 
-    {id: 1, nome: "ação", img: "assets/img/john-wick.jpg"},
-    {id: 2, nome: "comédia", img: "assets/img/billi-pig.jpg"},
-    {id: 3, nome: "terror", img: "assets/img/maligno.jpg"},
-    {id: 4, nome: "infantil", img: "assets/img/era-do-gelo-4.jpg" },
+  constructor(private service: CategoriesServices) {}
 
-  ]
-
+  ngOnInit() {
+    this.service.listCategories().subscribe(categories => this.categories = categories);
+  }
 }

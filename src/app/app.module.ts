@@ -12,6 +12,8 @@ import { CategoryComponent } from './categories/category/category.component';
 import { AboutComponent } from './about/about.component';
 import { FilmesComponent } from './filmes/filmes.component';
 import { FilmeComponent } from './filmes/filme/filme.component';
+import { HttpClientModule } from '@angular/common/http';
+import { CategoriesServices } from './categories/categories.service';
 
 
 @NgModule({
@@ -27,9 +29,10 @@ import { FilmeComponent } from './filmes/filme/filme.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
-  providers: [],
+  providers: [CategoriesServices],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
