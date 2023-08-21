@@ -4,13 +4,13 @@
         
         {
             "id": 1,
-            "nome": "ação",
+            "nome": "Ação",
             "img": "assets/img/john-wick.jpg"
         },
 
         {
             "id": 2, 
-            "nome": "comédia", 
+            "nome": "Comédia", 
             "img": "assets/img/billi-pig.jpg"
         },
         {
@@ -20,7 +20,7 @@
         },
         {
             "id": 4, 
-            "nome": "Infanti", 
+            "nome": "Infantil", 
             "img": "assets/img/era-do-gelo-4.jpg"
         }
         
@@ -59,13 +59,13 @@
         },
         {
             "id": 6,
-            "nome": "maligno",
+            "nome": "Maligno",
             "img": "assets/img/maligno.jpg",
             "categoria": 3
         },
         {
             "id": 7,
-            "nome": "a morte do demonio",
+            "nome": "A morte do demonio",
             "img": "assets/img/morte-do-demonio.jpg",
             "categoria": 3
         },
